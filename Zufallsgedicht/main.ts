@@ -16,6 +16,7 @@ function getVerse(): string {
     return sentence;
 }
 
+// camelCase für variablen benutzen
 function chooseStringFromArray(string_array: string[]): string {
     return string_array.splice(getRandomNumber(subjects.length), 1)[0] + " ";
 }
